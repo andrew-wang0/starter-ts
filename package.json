@@ -3,8 +3,8 @@
     "format": "pnpm -r format --log-level error",
     "lint": "pnpm -r lint",
     "lint-staged": "pnpm -r --workspace-concurrency=1 exec lint-staged",
-    "tscheck": "pnpm -r --parallel tscheck",
-    "prepare": "husky"
+    "prepare": "husky",
+    "tscheck": "pnpm -r --parallel tscheck"
   },
   "commitlint": {
     "extends": [
@@ -18,21 +18,21 @@
   },
   "prettier": "@packages/prettier-config",
   "devDependencies": {
-    "@commitlint/cli": "20.1.0",
-    "@commitlint/config-conventional": "20.0.0",
+    "@commitlint/cli": "20.3.1",
+    "@commitlint/config-conventional": "20.3.1",
     "@packages/eslint-config": "workspace:*",
     "@packages/prettier-config": "workspace:*",
     "@packages/typescript-config": "workspace:*",
-    "@types/node": "24.10.0",
-    "eslint": "9.39.1",
+    "@types/node": "25.0.9",
+    "eslint": "9.39.2",
     "husky": "9.1.7",
-    "lint-staged": "16.2.6",
-    "prettier": "3.6.2",
+    "lint-staged": "16.2.7",
+    "prettier": "3.8.0",
     "typescript": "5.9.3"
   },
-  "packageManager": "pnpm@10.20.0",
+  "packageManager": "pnpm@10.28.0",
   "engines": {
-    "node": "24.7.0",
-    "pnpm": "10.20.0"
+    "node": "24.12.0",
+    "pnpm": "10.28.0"
   }
 }
