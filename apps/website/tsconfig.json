@@ -10,7 +10,8 @@
     "paths": {
       "@/*": ["./*"]
     },
-    "jsx": "react"
+    "jsx": "react",
+    "strictNullChecks": true
   },
   "include": [
     "next-env.d.ts",
