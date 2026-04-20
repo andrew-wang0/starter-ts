@@ -14,15 +14,6 @@ const config = {
     require.resolve("prettier-plugin-tailwindcss"),
   ],
 
-  // embed plugin
-  embeddedSqlTags: ["sql"],
-
-  // sql plugin
-  language: "postgresql",
-  keywordCase: "upper",
-  dataTypeCase: "upper",
-  functionCase: "upper",
-
   // tailwindcss plugin
   tailwindFunctions: ["cva", "clsx", "cn"],
 };
