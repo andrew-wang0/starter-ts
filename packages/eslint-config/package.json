@@ -23,8 +23,8 @@
   "devDependencies": {
     "@eslint/eslintrc": "3.3.5",
     "@next/eslint-plugin-next": "16.2.4",
-    "@typescript-eslint/eslint-plugin": "8.59.0",
-    "@typescript-eslint/parser": "8.59.0",
+    "@typescript-eslint/eslint-plugin": "8.59.2",
+    "@typescript-eslint/parser": "8.59.2",
     "eslint-config-next": "16.2.4",
     "eslint-plugin-import": "2.32.0",
     "eslint-plugin-mdx": "3.7.0",
